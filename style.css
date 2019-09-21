@@ -1,0 +1,13 @@
+  /* CSS 選擇器 */
+        /*標籤名稱選擇器*/
+        body{background-color:#FCFAF2;font-family:"微軟正黑體","新細明體"}
+        span{font-weight:bold;}
+        /* ID 選擇器*/
+        #del{text-decoration:line-through;}
+        /* Class 選擇器*/
+
+        /*.all{background-color:#FCFAF2; font-family: Microsoft JhengHei  }*/
+        .title{font-size:24px ; font-weight:bold ; color:#D05A6E}
+        .content{width:500px ; margin-top:10px ; border:3px solid #B19693; padding:3px}
+        .keyword{color:#EB7A77}
+        .underline{text-decoration: underline}
