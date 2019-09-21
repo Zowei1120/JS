@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--快速開始!+Tab-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+
+    <!--
+        集中管理CSS
+    <style>
+        /*在這裡打CSS語法*/
+    </style>
+    -->
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body class="all"> 
+    <div class="title" id="del">這是段落標題1</div>
+
+    <!--設定width一訂要加單位不然會爆掉-->
+    <div class="content">
+
+        <!--如果用div在句中做標籤 display預設是block,改成inline才不會換行-->
+        <!--改用span不用設定display-->
+        今天<span class="keyword underline">天氣</span>不太好<br>
+        我覺得我的配色很漂亮
+
+        <!-- style="CSS語法" --> 
+        <div style="background-color:peachpuff">Test</div>
+    </div>
+
+    <div class="title">這是段落標題2</div>
+    <div class="content">
+        今天的<span class="keyword">心情</span>不太好<br>
+        <div style="background-color:peachpuff">Test</div>
+    </div>
+</body>
+</html>
